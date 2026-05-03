@@ -219,3 +219,7 @@ __marimo__/
 
 # Local Data
 data/
+
+# MLflow
+mlruns/
+mlartifacts/
