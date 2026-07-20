@@ -221,5 +221,6 @@ __marimo__/
 data/
 
 # MLflow
+mlflow.db*
 mlruns/
 mlartifacts/
