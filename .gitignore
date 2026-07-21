@@ -221,6 +221,12 @@ __marimo__/
 data/
 
 # MLflow
+mlflow/
 mlflow.db*
 mlruns/
 mlartifacts/
+
+# Airflow
+airflow/
+airflow.db*
+airflow.cfg*
