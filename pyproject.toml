@@ -22,4 +22,4 @@ dependencies = [
 environments = ["sys_platform == 'linux'"]
 
 [tool.uv.workspace]
-exclude = ["04-deployment/web-service"]
+exclude = ["04-deployment/*"]
