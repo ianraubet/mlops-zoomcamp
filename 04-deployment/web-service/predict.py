@@ -28,7 +28,10 @@ def predict_endpoint():
     pred = predict(features)
 
     result = {
-        'prediction': float(pred)
+        'prediction': float(pred),
+        'run_id': None,
+        'model_type': 'linear_regression',
+        'model_version': 'v1'
     }
 
     return jsonify(result)
