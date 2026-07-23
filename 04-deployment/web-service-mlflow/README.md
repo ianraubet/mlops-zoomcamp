@@ -1,7 +1,7 @@
-## Deploying a model as a web-service
+## Deploying a model as a web-service with MLflow registry
 
 * Using uv to manage the venv
-* Creating a script for predicting
+* Creating a script for predicting by using a logged MLflow model
 * Placing the script into a Flask app
 * Packaging the app with Docker
 
